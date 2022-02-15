@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    android:background="@drawable/flate"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="@dimen/_25sdp"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_90sdp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/edit"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:paddingStart="@dimen/_10sdp"
+        android:drawablePadding="@dimen/_10sdp"
+        android:maxLength="20"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="User Name" />
+
+    <EditText
+        android:id="@+id/emailaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/edit"
+        android:drawablePadding="@dimen/_10sdp"
+        android:drawableStart="@drawable/email"
+        android:paddingStart="@dimen/_10sdp"
+        android:maxLength="30"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email Address" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:drawableStart="@drawable/password1"
+        android:paddingStart="@dimen/_10sdp"
+        android:ems="10"
+        android:maxLength="8"
+        android:inputType="textPassword"
+        android:hint="Passsword" />
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:drawablePadding="@dimen/_10sdp"
+        android:drawableStart="@drawable/password"
+        android:paddingStart="@dimen/_10sdp"
+        android:maxLength="8"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Confirm Password" />
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/edit"
+        android:textSize="@dimen/_15sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:text="Gender:" />
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:text="Male"></RadioButton>
+
+       <RadioButton
+           android:id="@+id/radioButton2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="@dimen/_10sdp"
+           android:layout_marginRight="@dimen/_10sdp"
+           android:text="Female"></RadioButton>
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:drawableStart="@drawable/address"
+        android:paddingStart="@dimen/_10sdp"
+        android:drawablePadding="@dimen/_10sdp"
+        android:background="@drawable/edit"
+        android:ems="10"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:hint="Address" />
+
+    <EditText
+        android:id="@+id/state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/edit"
+        android:drawableStart="@drawable/state"
+        android:paddingStart="@dimen/_10sdp"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:ems="10"
+        android:hint="State" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:drawableStart="@drawable/city"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/edit"
+        android:ems="10"
+        android:hint="City" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/button"
+        android:text="register" />
+
+
+
+</LinearLayout>

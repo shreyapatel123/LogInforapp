@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">login page</string>
+    <string name="username_error">please enter name</string>
+    <string name="password_error">8 character password</string>
+    <string name="error_invalid_password">please enter password</string>
+    <string name="email_error">enter correct Email</string>
+    <string name="error_invalid_email">Email error</string>
+    <string name="phone_error">valid number</string>
+    <string name="confirm_password"> enter confirm password</string>
+</resources>

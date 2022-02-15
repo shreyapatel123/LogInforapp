@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_30sdp"
+    tools:context=".MainActivity"
+    android:background="@drawable/flate"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_25sdp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+       android:layout_marginLeft="@dimen/_90sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:text="Log In"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ed_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="@dimen/_10sdp"
+        android:padding="@dimen/_5sdp"
+        android:hint="User Name"
+        android:layout_marginTop="@dimen/_40sdp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="@dimen/_10sdp"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/edit"
+        android:layout_marginTop="@dimen/_20sdp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="@dimen/_10sdp"
+        android:maxLength="8"
+        android:hint="Password"
+        android:padding="@dimen/_5sdp"
+        android:inputType="textPassword"
+        android:layout_marginTop="@dimen/_20sdp"/>
+
+    <EditText
+        android:id="@+id/ed_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/phone"
+        android:drawablePadding="@dimen/_10sdp"
+        android:maxLength="10"
+        android:inputType="number"
+        android:background="@drawable/edit"
+        android:padding="@dimen/_5sdp"
+        android:hint="Mobile Number"
+        android:layout_marginTop="@dimen/_20sdp"></EditText>
+
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Your Password"
+        android:textColor="@color/black"
+        android:layout_marginLeft="@dimen/_115sdp"
+        android:textSize="@dimen/_12sdp"></TextView>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:shadowRadius="10"
+        android:background="@drawable/button"
+        android:textSize="@dimen/_13sdp"
+        android:text="Sign Up"></Button>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textSize="@dimen/_12sdp"
+        android:text="OR" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:shadowRadius="30"
+        android:background="@drawable/button"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="@dimen/_12sdp"
+        android:text="Log In" />
+
+
+
+</LinearLayout>
